@@ -23,8 +23,6 @@
 
 for (let n = 1; n <= 1000; n++) {
   
-
-  
     let isPrime = true;
   
     for (let j = 2; j < n; j++) {
@@ -36,5 +34,8 @@ for (let n = 1; n <= 1000; n++) {
   
     if (isPrime === true) {
       console.log(`${n} is the next prime number`);
+      break
     }
+    
+    
   }
